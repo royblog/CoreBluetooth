@@ -5,7 +5,7 @@ Core Bluetooth 框架可以让iOS，Mac 和蓝牙低能耗设备通信，如心�
 在蓝牙通信中，有两个主要的角色，Centrals 和 Peripherals。Peripherals 通常有其它设备需要的数据，Centrals 通常使用 Peripherals 的数据来完成某项任务，有点类似于 client-server 架构。
 
 <p align="center" >
-  <img src="](https://upload-images.jianshu.io/upload_images/2153441-51fbd5b737a6d07c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="PPActionSheet" title="PPActionSheet" width=60% height=60%>
+  <img src="https://upload-images.jianshu.io/upload_images/2153441-51fbd5b737a6d07c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Central and peripheral devices" title="Central and peripheral devices" width=60% height=60%>
 </p>
 
 
