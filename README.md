@@ -1,6 +1,8 @@
 # Core Bluetooth
 Core Bluetooth 为iOS，Mac和配备蓝牙低能耗无线技术的设备通讯提供接口类。蓝牙低能耗技术基于蓝牙4.0规范，除此之外，还定义了一组低能耗设备间通讯协议。Core Bluetooth 框架是对蓝牙低能耗协议栈的抽象封装，隐藏了很多底层的实现细节，使开发者更专注于应用和蓝牙低能耗设置的交互。
-在蓝牙低能耗通信中，有两个关键参与者，Centrals 和 Peripherals。Peripherals 通常有其它设置需要的数据，Centrals 通常使用 Peripherals 的数据来完成某项任务。例如配备蓝牙低耗能技术的数字恒温器可以为iOS应用提供室温。
+
+在蓝牙低能耗通信中，有两个关键参与者，Centrals 和 Peripherals。Peripherals 通常有其它设备需要的数据，Centrals 通常使用 Peripherals 的数据来完成某项任务。例如配备蓝牙低耗能技术的数字恒温器可以为iOS应用提供室温。
+
 当你的应用在后台或者停止状态，蓝牙功能会受到影响。默认情况下，在应用在后台或者停止状态，不能执行蓝牙低能耗任务。如果需要在后台执行蓝牙低能耗任务，可以声明支持一种或者两种蓝牙后台执行模式，一种 central role，一种 peripherals role。即使支持后台执行模式，某些蓝牙任务在后台执行是不同的，在开发应用的时候需要考虑这些因素。
 
 # Core Bluetooth Overview
