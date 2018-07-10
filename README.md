@@ -17,7 +17,7 @@ Peripherals 以 advertising packet 的形式广播拥有的数据，advertising 
 连接 Peripheral，然后进行数据交互， Peripheral 的数据是如何构造的呢？Peripheral 包含一个或者多个服务，或者提供与连接信号强度相关的信息。服务是设备功能或特性数据和相关行为的集合，例如心率检测器的服务可以是检测心率检测器暴露的数据。服务本身是由特征和服务组成，特性提供了 Peripheral 的更详细信息。
 
 <p align="center" >
-  <img src="https://upload-images.jianshu.io/upload_images/2153441-0712958934e24a85.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="A peripheral’s service and characteristics" title="A peripheral’s service and characteristics" width=80% height=80%>
+  <img src="https://upload-images.jianshu.io/upload_images/2153441-0712958934e24a85.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="A peripheral’s service and characteristics" title="A peripheral’s service and characteristics" width=30% height=30%>
 </p>
 
 在 Central 侧，Central 设备由 CBCentralManager 对象管理，用于管理发现和连接 Peripheral 设备（CBPeripheral）
