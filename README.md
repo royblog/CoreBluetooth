@@ -20,6 +20,6 @@ Peripherals 以 advertising packet 的形式广播拥有的数据，advertising 
   <img src="https://upload-images.jianshu.io/upload_images/2153441-0712958934e24a85.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="A peripheral’s service and characteristics" title="A peripheral’s service and characteristics" width=30% height=30%>
 </p>
 
-在 Central 侧，Central 设备由 CBCentralManager 对象管理，用于管理发现和连接 Peripheral 设备（CBPeripheral）
+# 常见的 Central 任务
 
 
