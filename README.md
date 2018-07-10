@@ -141,4 +141,21 @@ central manager 发现 peripheral，调用 centralManager:didDiscoverPeripheral:
 }
 ```
 
+# Common Peripheral Role Tasks
+* Starting Up a Peripheral Manager
+* Setting Up Your Services and Characteristics
+* Publishing Your Services and Characteristics
+* Advertising Your Services
+* Responding to Read and Write Requests from a Central
+* Sending Updated Characteristic Values to Subscribed Centrals
+
+## Starting Up a Peripheral Manager
+创建 periphernal manager， queue 默认为 main queue。创建成功，调用 peripheralManagerDidUpdateState: 代理。
+```
+    myPeriphercalManager = [[CBPeripheralManager alloc] initWithDelegate:self queue:nil options:nil];
+```
+
+##  Setting Up Your Services and Characteristics
+未完待续…………
+
 
