@@ -11,7 +11,7 @@ Core Bluetooth 框架可以让iOS，Mac 和蓝牙低能耗设备通信，如心�
 Peripherals 以 advertising packet 的形式广播拥有的数据，advertising packet 是数据较小的数据包，如数据 Peripherals 的名字和主要功能。例如在数字恒温器可以广播当前的室温。Centrals 可以扫描和监听正在 advertising 信息的 Peripherals。
 
 <p align="center" >
-  <img src="https://upload-images.jianshu.io/upload_images/2153441-51fbd5b737a6d07c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Central and peripheral devices" title="Central and peripheral devices" width=80% height=80%>
+  <img src="https://upload-images.jianshu.io/upload_images/2153441-7f4c5804cf246d0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Central and peripheral devices" title="Central and peripheral devices" width=80% height=80%>
 </p>
 
 https://upload-images.jianshu.io/upload_images/2153441-7f4c5804cf246d0c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
